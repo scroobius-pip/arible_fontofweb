@@ -1,0 +1,21 @@
+{
+    "title": "Font of Web",
+    "description": "Type a Website and Identify its Fonts",
+    "endpoint": "https://fontofwebarible.simdi.workers.dev",
+    "fields": [
+        {
+            "name": "url",
+            "title": "Website URL",
+            "description": "Enter a website's url",
+            "type": "Text",
+            "validation": {
+                "allOf": [
+                    {
+                        "min": 5,
+                        "message": "Enter a valid url"
+                    }
+                ]
+            }
+        }
+    ]
+}
